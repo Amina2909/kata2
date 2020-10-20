@@ -32,4 +32,10 @@ public class Util {
         }
         return sessionFactory;
     }
+
+    public static void closeConnection() {
+        if (sessionFactory != null)
+            sessionFactory.close();
+    }
+
 }
