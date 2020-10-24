@@ -11,7 +11,7 @@ public class Util {
     private static final String HOST = "jdbc:mysql://localhost:3306/test?serverTimezone=Europe/Moscow";
     private static final String LOGIN = "root1";
     private static final String PASSWORD = "1234";
-    static SessionFactory sessionFactory = null;
+    private static SessionFactory sessionFactory = null;
 
     public static SessionFactory getConnection() {
 
