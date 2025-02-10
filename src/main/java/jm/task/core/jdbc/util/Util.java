@@ -8,9 +8,9 @@ import org.hibernate.service.ServiceRegistry;
 
 public class Util {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String HOST = "jdbc:mysql://localhost:3306/test?serverTimezone=Europe/Moscow";
-    private static final String LOGIN = "root1";
-    private static final String PASSWORD = "1234";
+    private static final String HOST = "jdbc:mysql://localhost:3306/tab";
+    private static final String LOGIN = "user";
+    private static final String PASSWORD = "root";
     private static SessionFactory sessionFactory = null;
 
     public static SessionFactory getConnection() {
